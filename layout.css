@@ -1,0 +1,57 @@
+/* Universal CSS */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    align-items: center;
+}
+
+.header {
+    background-color: deepskyblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+overflow: hidden;
+background-color: gray;
+}
+
+.topnav a{
+    float: right;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.kolom1{
+    float: left;
+    padding: 10px;
+}
+.kolom1.side{
+    width: 25%;
+}
+.kolom1.middle{
+    width: 50%;
+}
+.row.after{
+    content: "";
+    display: table;
+    clear: both; /* Membershkan float left sebelumnya*/ 
+}
+.footer{
+   background-color: aliceblue; 
+   padding: 10px;
+   text-align: center;
+   position:absolute;
+   bottom: 50%;
+}
